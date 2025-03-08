@@ -87,7 +87,7 @@ If you use this work, please cite:
 @inproceedings{srivastava2025robustICL,
   title={Robust In-Context Learning via Multi-Armed Bandit-Based Partition Selection},
   author={Varul Srivastava, Sankarshan Damle, Manisha Padala},
-  booktitle={DATA-FM Workshop @ ICLR 2025},
+  booktitle={2nd Workshop on Navigating and Addressing Data Problems for Foundation Models at ICLR},
   year={2025}
 }
 ```
