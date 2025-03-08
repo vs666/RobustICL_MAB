@@ -39,7 +39,7 @@ This paper introduces a **Multi-Armed Bandit (MAB)-based partition selection** s
 - Prioritizes partitions with **higher reliability** over time.
 - Recovers performance comparable to **clean-data settings**.
 
-🚀 **Algorithm Implementation:** [Provide GitHub repo link]
+🚀 **Algorithm Implementation:** [Github Link](https://github.com/vs666/RobustICL_MAB)
 
 ---
 
@@ -60,23 +60,24 @@ This paper introduces a **Multi-Armed Bandit (MAB)-based partition selection** s
 - **Accuracy** on ICL tasks with varying noise levels
 - **Impact of UCB selection vs. uniform/random selection**
 
-🖼 **Add performance tables & plots here**
-
 ---
 
 ## 📈 Results
-- **Noise Hurts ICL:** Performance drops significantly when labels are corrupted.
-- **UCB-Based Selection Recovers Performance:** Near clean-data accuracy is achieved using our method.
-- **Larger Models Are More Robust:** Bigger LLMs generalize better against noise.
+### 📌 Performance of LLaMA-3.2-3B on Different Datasets
+| Dataset | Zero-Shot | Worst-Case | No-Noise | Uniform | UCB-d1 | UCB-d2 |
+|---------|-----------|------------|----------|---------|--------|--------|
+| AG-News | 58.38±1.9 | 61.68±3.8  | 74.25±1.39 | 64.67±3.86 | 73.45±1.64 | 69.93±1.82 |
+| MMLU | 34.13±2.22 | 45.84±0.11 | 49.23±1.26 | 46.31±0.53 | 48.77±1.17 | 48.70±0.34 |
+| MMLU-Pro | 19.36±0.72 | 27.41±1.02 | 29.21±1.02 | 29.67±0.5 | 30.27±0.41 | 26.95±0.91 |
+| Synthetic | 20.95±1.69 | 25.75±0.28 | 39.02±2.11 | 29.84±2.40 | 39.22±1.83 | 31.74±2.26 |
 
-📊 **Add experimental results & comparison charts here**
-
----
-
-## 🔮 Future Work
-- Extend to **adversarially corrupted** partitions.
-- Explore **Combinatorial Bandits** for non-IID data distributions.
-- Apply method to **real-world settings** like healthcare or finance.
+### 📌 Performance Comparison Across Model Sizes on AG-News
+| Model | Zero-Shot | Worst-Case | No-Noise | Uniform | UCB-d1 | UCB-d2 |
+|--------|-----------|------------|----------|---------|--------|--------|
+| phi-3.5-mini | 47.70 | 48.70 | 69.86 | 53.69 | 69.36 | 61.88 |
+| LLaMA-3.2-3B | 58.38 | 61.68 | 74.25 | 64.67 | 73.45 | 69.93 |
+| LLaMA-3.1-8B | 80.08 | 63.38 | 84.11 | 75.78 | 83.92 | 81.31 |
+| LLaMA-3.1-70B | 86.69 | 86.65 | 87.76 | 87.76 | 87.55 | 87.37 |
 
 ---
 
@@ -94,16 +95,14 @@ If you use this work, please cite:
 ---
 
 ## 🛠️ Code & Reproducibility
-📂 **Coming Soon**: [Provide GitHub repo link]
+📂 **Coming Soon**: [Github Link](https://github.com/vs666/RobustICL_MAB)
 
 ---
 
 ## 📞 Contact
 For questions, feel free to open an issue or contact the authors.
 
-📧 **Email:** [Add contact email]
-
-💬 **Discussion:** [Add link to discussion thread]
+📧 **Email:** varul [dot] srivastava [at] gmail.com 
 
 ---
 
