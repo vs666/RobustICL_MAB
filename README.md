@@ -9,7 +9,7 @@ In-context learning (ICL) enables Large Language Models (LLMs) to adapt to new t
 
 This paper introduces a **Multi-Armed Bandit (MAB)-based partition selection** strategy using the **Upper Confidence Bound (UCB)** algorithm. By treating each partition as an arm in a bandit problem, the model iteratively selects the most reliable partitions, improving the robustness of ICL against noisy data.
 
-📄 **Accepted at:** DATA-FM Workshop @ ICLR 2025 (Under Review)
+📄 **Accepted at:** DATA-FM Workshop @ ICLR 2025
 
 ---
 
