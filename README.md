@@ -4,6 +4,8 @@
 
 **Paper:** [Link to Paper](https://github.com/vs666/RobustICL_MAB/blob/main/workshop_paper.pdf)
 
+**Poster:**
+![ICLR Workshop poster](https://github.com/vs666/RobustICL_MAB/blob/main/In_page-0001.jpg)
 ## 📌 Overview
 In-context learning (ICL) enables Large Language Models (LLMs) to adapt to new tasks without parameter updates, relying solely on exemplar selection. However, noisy labels in real-world data partitions can significantly degrade ICL performance.
 
